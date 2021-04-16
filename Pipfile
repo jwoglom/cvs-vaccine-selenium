@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+selenium = "*"
+requests = "*"
+fake-useragent = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+main = "python3 main.py"
